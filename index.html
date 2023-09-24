@@ -11,6 +11,80 @@
     <h2>Haris Mumtaz</h2>
     <h2>Roll No. 22</h2>
     <h2>Assignment: Fundemental of Programming</h2>
-    <img src="/Users/92346/Downloads/input%20image%201.JPG" >
+    <div class="assignment">
+    <div class="input">
+        <h3>
+            <b id="inc">#include</b> <b id="std">stdio.h</b> <br> 
+            <b id="in">int</b> main() {<br>
+    <br>        
+             <b id="int">int</b> rollNo , physics , chemistry , math , total;<br>
+             <b id="dou">double</b> percentage;<br>
+             <b id="cha">char</b> name[ <b id="std">35</b> ];<br>
+             <b id="ch">char</b> grade;<br>
+        <br>     
+             <b id="pri">printf</b>(<b id="en">"Enter Your Name: "</b>);<br>
+             <b id="ge">gets</b>(name);<br>
+            <br> 
+             <b id="pr">printf</b>( <b id="ro">"Enter Roll No. "</b>);<br>
+             <b id="sca">scanf</b>("<b id="d">%d</b> ",<b id="and">&</b> rollNo);<br>
+            <br>
+            <b id="pr">printf</b>(<b id="en"> "Enter Maths Marks: "</b> );<br>
+             <b id="sca">scanf</b>("<b id="d">%d</b> ",<b id="and">&</b>math);<br>
+            <br>
+            <b id="pr">printf</b>(<b id="en">"Enter Physics Marks: " </b> );<br>
+             <b id="sca">scanf</b>("<b id="d">%d</b> ",<b id="and">&</b>physics);<br>
+             <br>
+             <b id="pr">printf</b>(<b  id="en"> "Enter Chemistry Marks: " </b> );<br>
+             <b id="sca">scanf</b>("<b id="d">%d</b> ",<b id="and">&</b> chemistry);<br>
+             <br>
+             <b id="pr">printf</b>(<b  id="en">"<b id="d">\n</b>Name: <b id="d">%s\n</b>" </b>, name );<br>
+             <b id="pr">printf</b>(<b  id="en"> "Roll No.: <b id="d">%d\n</b>"</b>, rollNo );<br>
+             <br>
+             total= physics + chemistry + math;<br>
+             <b id="pr">printf</b>(<b id="en"> "Total Mark:  <b id="d">%d\n</b>"</b>, total );<br>
+             <br>
+            percentage = total / <b id="d">3.0</b>;<br>
+            <b id="pr">printf</b>(<b id="en">"Percentage: <b id="d">%lf\n</b>"</b>, percentage);<br>
+            <br>
+             <b id="and">if</b> (percentage <b id="and">>=</b> <b id="d">90</b>) {<br>
+                    grade <b id="and">==</b> <b  id="en">'A'</b>;<br>
+                    if (percentage <b id="and">>=</b> <b id="d">90</b> && percentage < <b id="d">100</b> ) {<br>
+                        grade = <b  id="en">'A'</b>;<br>
+                    }  <br>
+             <br>
+                } <b id="and">else if</b> (percentage <b id="and">>=</b> <b id="d">80</b> <b id="and">&&</b> percentage < <b id="d">90</b> ) {<br>
+                    grade = <b  id="en">'B'</b>;<br>
+                } <b id="and">else if</b> (percentage <b id="and">>=</b> <b id="d">70</b> <b id="and">&&</b> percentage < <b id="d">80</b> ) {  <br>
+                    grade = <b  id="en">'C'</b>;<br>
+                } <b id="and">else if</b> (percentage <b id="and">>=</b> <b id="d">60</b> <b id="and">&&</b> percentage < <b id="d">70</b>) {  <br>
+                    grade = <b  id="en">'D'</b>;<br>
+                } <b id="and">else if</b> (percentage <b id="and">>=</b> <b id="d">50</b> <b id="and">&&</b> percentage < <b id="d">60</b>) { <br>
+                    grade = <b  id="en">'E'</b>;<br>
+                } <b id="and" >else</b> {  <br>
+                    grade = <b  id="en">'F'</b>;   <br>
+                }   <br>
+            <br>
+            <b id="pr">printf</b>(<b id="en"> "Grade: <b id="d">%c\n</b> "</b>, grade); <br>
+            <br>
+               <b id="and">return</b> <b id="d">0</b>; <br>
+            }</h3> 
+    </div>
+<div class="output">
+<h3>Enter Your Name: Haris Mumtaz <br>
+    Enter Roll No. 22 <br>
+    Enter Maths Marks: 89 <br>
+    Enter Physics Marks: 78 <br>
+    Enter Chemistry Marks: 63 <br> <br> <br>
+    Name: Haris Mumtaz <br>
+    Roll No.: 22 <br>
+    Total Mark: 230 <br>
+    Percentage: 76.666667 <br>
+    Grade: C <br>
+    </h3>
+</div>
+
+</div>
+
+    <!-- <img src="/Users/92346/Downloads/input%20image%201.JPG" > -->
 </body>
 </html>

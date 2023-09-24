@@ -1,3 +1,90 @@
 h1{
     text-align: center;
 }
+h2{
+    margin-left: 30px;
+}
+.assignment{
+    display: flex;
+}
+.input{
+    background-color: rgb(61, 60, 60);
+    width: 650px;
+    height: 2000px;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 35px;
+}
+.output{
+    background-color: rgb(61, 60, 60);
+    width: 520px;
+    height: 2000px;
+    margin-top: 60px;
+    padding-left: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 35px;
+}
+#inc{
+    color: #86745c;
+}
+#std{
+    font-size: 20px;
+    color: #72570d;
+}
+#in{
+    font-size: 20px;
+    color: #e1d6b8;
+}
+#int{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#dou{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#cha{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#ch{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#pri{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#ge{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#en{
+    color: #636e67;
+    font-size: 20px;
+}
+#pr{
+    color: #e1d6b8;
+    font-size: 20px;
+}
+#ro{
+    font-size: 20px;
+    color: #636e67;
+}
+#sca{
+    font-size: 20px;
+    color: #e1d6b8;
+}
+#d{
+    font-size: 20px;
+    color: #72570d;
+}
+#and{
+    font-size: 20px;
+    color: #86745c;
+}
