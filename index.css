@@ -10,7 +10,7 @@ h2{
 .input{
     background-color: rgb(61, 60, 60);
     width: 650px;
-    height: 2000px;
+    height: 3000px;
     margin-top: 60px;
     margin-right: 30px;
     margin-left: 30px;
@@ -22,7 +22,7 @@ h2{
 .output{
     background-color: rgb(61, 60, 60);
     width: 520px;
-    height: 2000px;
+    height: 3000px;
     margin-top: 60px;
     padding-left: 30px;
     color: aliceblue;
